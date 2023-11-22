@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const newBox = document.createElement("div");
     newBox.className = "box";
     newBox.innerHTML = `
-      <p>id: id${idCount}</p>
+      <p>id${idCount}</p>
     `;
 
     const newButton = document.createElement("button");
